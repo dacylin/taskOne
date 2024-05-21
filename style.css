@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap {
+  margin: 0 auto;
+  border: 1px solid purple;
+}
+.header {
+  width: 1920px;
+  height: 96px;
+  font-size: 40px;
+  background-color: rgb(0, 187, 255);
+}
+.title {
+  width: 1920px;
+  height: 460px;
+  font-size: 40px;
+  background-color: chocolate;
+}
+.footer {
+  width: 1920px;
+  height: 426px;
+  font-size: 40px;
+  background-color: deeppink;
+}
+.body {
+  font-family: Noto Sans;
+}
+.content {
+  width: 1920px;
+  height: 2126px;
+  padding: 120px 0px 120px 0px;
+}
+.container {
+  width: 1296px;
+  height: 1774px;
+  margin-top: 120px;
+  margin-left: 312px;
+  margin-right: 312px;
+  margin-bottom: 232px;
+}
+.container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cardGroupl {
+  width: 636px;
+  height: 538px;
+  margin-bottom: 80px;
+  margin-right: 24px;
+}
+.cardGroup {
+  width: 636px;
+  height: 538px;
+  margin-bottom: 80px;
+}
+img {
+  width: 636px;
+  height: 400px;
+  border-radius: 8px;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 16px;
+}
+.cardText {
+  padding: 0 16px 0 16px;
+}
+.cardText h2 {
+  height: 34px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  color: #3b3b3b;
+  margin-bottom: 8px;
+}
+.cardText p {
+  line-height: 24px;
+  color: #919191;
+  margin-bottom: 24px;
+}
+ul .cardTag {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+ul .cardTag li {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 4px 12px 4px 12px;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 16px;
+  margin-right: 16px;
+  color: #3b3b3b;
+}
+
+.changePage {
+  width: 152px;
+  height: 40px;
+  background-color: mediumvioletred;
+}
