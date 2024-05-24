@@ -162,9 +162,13 @@ img {
   margin-bottom: 16px;
 }
 .cardText {
+  width: 636px;
+  height: 122px;
   padding: 0 16px 0 16px;
 }
 .cardText h2 {
+  width: 398px;
+  height: 34px;
   font-size: 28px;
   font-weight: 700;
   line-height: 33.6px;
@@ -172,22 +176,26 @@ img {
   margin-bottom: 8px;
 }
 .cardText p {
+  width: 365px;
+  height: 24px;
   line-height: 24px;
   color: #919191;
   margin-bottom: 24px;
 }
 ul .cardTag {
+  width: 323px;
+  height: 32px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
+  column-gap: 16px;
 }
-ul .cardTag li {
+.cardTag li {
   background-color: #f1f1f1;
   text-align: center;
   padding: 4px 12px 4px 12px;
   font-size: 16px;
   line-height: 24px;
   border-radius: 16px;
-  margin-right: 16px;
   color: #3b3b3b;
 }
